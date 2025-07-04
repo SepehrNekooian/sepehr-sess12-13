@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nekoian_Web</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-store"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                    <a href="#">ثبت نام / ورود</a>
+                </div>
+
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slider1">
+                    <img src="images/1.jpg" alt="">
+                    <span>اگر به عکاسی علاقه‌مندید، خرید یک دوربین عکاسی می‌تواند یک تجربه لذت‌بخش و خلاقانه باشد</span>
+                </div>
+                <div class="item" id="slider2">
+                    <img src="images/4.jpg" alt="">
+                    <span>دوربین عکاسی کیفیت بالا</span>
+                </div>
+                <div class="item" id="slider3">
+                    <img src="images/3.jpg" alt="">
+                    <span></span>
+                </div>
+
+            </div>
+            <div class="Buttons">
+                <i onclick="setslide('slider1', 1)"class="fa-regular fa-circle-left"></i>
+                <i onclick="setslide('slider1', 2)"class="fa-regular fa-circle-right"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="gallery">
+                <div class="content">
+                    <img src="images/11.jpg">
+                    <h3>حسگر</h3>
+                    <p>دوربین عکاسی چاپ سریع کانن مدل Zoemini C، حسگر با دقت 5 مگاپیکسل، وزن 180 گرم</p>
+                    <h6>میلیون ۶</h6>
+                    <ul>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                    </ul>
+                    <button class="buy-1">خرید</button>
+                </div>
+                
+                <div class="content">
+                    <img src="images/6.jpg">
+                    <h3>نیکون</h3>
+                    <p>دوربین دیجیتال نیکون مدل D3500 به همراه لنز 18-55 میلی متر VR AF-P</p>
+                    <h6>میلیون ۳۵</h6>
+                    <ul>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <button class="buy-2">خرید</button>
+                </div>
+                <div class="content">
+                    <img src="images/5.jpg">
+                    <h3>کانن</h3>
+                    <p>دوربین دیجیتال کانن مدل EOS 2000D به همراه لنز 18-55 میلی متر DC III</p>
+                    <h6>میلیون ۳۰</h6>
+                    <ul>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                        <li><i class="fa-solid fa-star "></i></li>
+                    </ul>
+                    <button class="buy-3">خرید</button>
+                </div>
+
+                <div class="content">
+                    <img src="images/7.jpg">
+                    <h3>سونی</h3>
+                    <p>دوربین سونی مدل ALPHA A7 IV 28-70، فیلم‌برداری با رزولوشن 4k، وزن 659 گرم</p>
+                    <h6>میلیون ۷۰</h6>
+                    <ul>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                        <li><i class="fa-solid fa-star checked"></i></li>
+                    </ul>
+                    <button class="buy-4">خرید</button>
+                </div>
+            </div>
+        </section>
+        <section class="super-offer">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="super-offer-box">
+                        <span class="super-offer-box-title">
+                            پیشنهاد شگفت انگیز
+                        </span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <div class="book">
+                                        <img src="images/14.jpg" alt="">
+                                        <img src="images/12.jpg" alt="">
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="specification">
+                                        <div class="row-price">
+                                            <div class="price">۸۰۰.۰۰۰</div>
+                                            <div class="off">50% تخفیف</div>
+                                        </div>
+                                        <div class="title">پکیج عکاسی ۴۰ جلسه ای </div>
+                                        <div class="counter-down">
+                                            <span id="seconds">55</span> :
+                                            <span id="minutes">15</span> :
+                                            <span id="hours">16</span>
+
+                                        </div>
+                                        <div class="remaining-time">زمان باقی مانده تا پایان سفارش</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                        درباره ما
+                    </div>
+                    <div class="des">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</div>
+
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">
+                        ما را در شبکه های اجتماعی دنبال کنید 
+
+                    </div>
+                    <div class="socials">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            کلیه حقوق محفوظ می باشد © 2025
+        </div>
+    </footer>
+    
+</body>
+</html>
